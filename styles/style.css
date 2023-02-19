@@ -1,0 +1,134 @@
+body {
+    background-color: whitesmoke;
+    
+}
+
+main {
+    width: 85vw;
+    margin: auto;
+}
+
+p,
+ul {
+    font-size: 1.15rem;
+    text-align: start;
+}
+
+ul {
+    margin-left: -1.5rem;
+}
+
+#projects li {
+    list-style-type: square;
+}
+
+span {
+    text-align: center;
+    font-size: 1.25rem;
+    width: 40vw;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+    font-family: Teko;
+    color: navy;
+    text-shadow: 8px 8px 10px grey;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul,
+h3 {
+    font-family: oswald;
+}
+
+table {
+    width: 60vw;
+    margin: auto;
+}
+
+th {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    ;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 1.25rem;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    margin: 1rem;
+    color: black;
+}
+
+.header-text {
+    text-align: start;
+}
+
+
+
+/* Flexbox */
+.container, .container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item {
+    align-self: flex-start;
+    width: 100%;
+    flex-basis: auto;
+}
+.skills-box {
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px;
+    width: 10rem;
+    align-self: auto;
+}
+
+.skills-box > ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .container-2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) {
+    .disappear {
+        display: none;
+    }
+}
