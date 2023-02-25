@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: whitesmoke;
     
@@ -39,7 +44,6 @@ h2 {
     font-family: Teko;
     color: navy;
     text-shadow: 8px 8px 10px grey;
-    text-align: center;
 }
 
 h1 {
@@ -48,10 +52,6 @@ h1 {
 
 h2 {
     font-size: 3rem;
-}
-
-h3 {
-    text-align: center;
 }
 
 ul,
@@ -88,8 +88,6 @@ td {
     text-align: start;
 }
 
-
-
 /* Flexbox */
 .container, .container-2 {
     display: flex;
@@ -97,11 +95,7 @@ td {
     justify-content: space-around;
 }
 
-.item {
-    align-self: flex-start;
-    width: 100%;
-    flex-basis: auto;
-}
+
 .skills-box {
     border: 1px solid black;
     border-radius: 5%;

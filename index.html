@@ -5,112 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Teko&family=Oswald&family=Playfair+Display:wght@500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Banger&family=Caveat:wght@500&family=Lobster&family=Special+Elite&family=Teko&family=Oswald&family=Playfair+Display:wght@500&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7beb4c51dd.js" crossorigin="anonymous" async></script>
     <title>My CV</title>
 </head>
 
 <body>
     <main>
         <!-- Introduction -->
-        <h1 id="name">Ken Sheridan (updated)</h1>
-        <h3>Email: kensheridan86@gmail.com
-            <br>
-            Contact: 0857223746
-            <br>
-            <a href="https://github.com/KSheridan86" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.linkedin.com/in/kensheridan86/" target="_blank"><i
-                    class="fa-brands fa-linkedin"></i></a>
-        </h3>
+        <div class="container">
+            <div class="row justify-content-center mt-4">
+                <div class="col-12">
+                    <h1 id="name" class="text-center">Ken Sheridan</h1>
+                    <h3 class="text-center">Email: kensheridan86@gmail.com
+                        <br>
+                        Contact: 0857223746
+                        <br>
+                        <a href="https://github.com/KSheridan86" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kensheridan86/" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
         <hr>
 
         <!-- Education Section -->
-        <h2>Education</h2>
-        <div class="container">
+        <h2 class="text-center">Education</h2>
+        <div class="container g-1">
+            <div class="row justify-content-evenly">
+                <div class="item col-10 col-md-6 col-lg-3">
+                    <div class="header-text">
+                        <strong>January 2023 – December 2023</strong><br>
+                        National College of Ireland<br>
+                        HDip in Computer Science<br>
 
-            <div class="item">
-                <div class="header-text">
-                    <strong>January 2023 – December 2023</strong><br>
-                    National College of Ireland<br>
-                    HDip in Computer Science<br>
-
-                    Modules covered include:
+                        Modules covered include:
+                    </div>
+                    <ul>
+                        <li>Software Development</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Databases</li>
+                        <li>Web design & Client side scripting</li>
+                        <li>DevOpsSec</li>
+                        <li>Cloud Application Development</li>
+                        <li>Advanced Client side scripting</li>
+                        <li>Computer Architecture, Networks & Operating systems</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Software Development</li>
-                    <li>Object Oriented Programming</li>
-                    <li>Databases</li>
-                    <li>Web design & Client side scripting</li>
-                    <li>DevOpsSec</li>
-                    <li>Cloud Application Development</li>
-                    <li>Advanced Client side scripting</li>
-                    <li>Computer Architecture, Networks & Operating systems</li>
-                </ul>
 
-            </div>
-            <div style="width: 100%; height: 3rem;"></div>
-            <div class="item">
-                <div class="header-text">
-                    <strong>January 2022 – January 2023</strong><br>
-                    Code Institute Diploma in Full Stack Software Development<br>
-                    Credit rated by The University of the West of Scotland<br>
+                <div class="item col-10 col-md-6 col-lg-3">
+                    <div class="header-text">
+                        <strong>January 2022 – January 2023</strong><br>
+                        Code Institute Diploma in Full Stack Software Development<br>
+                        Credit rated by The University of the West of Scotland<br>
 
-                    Modules Completed:
+                        Modules Completed:
+                    </div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>jQuery</li>
+                        <li>Flask</li>
+                        <li>Django</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>jQuery</li>
-                    <li>Flask</li>
-                    <li>Django</li>
-                </ul>
 
-            </div>
-            <div style="width: 100%; height: 3rem;"></div>
-            <div class="item">
-                <div class="header-text">
-                    <strong>September 2004 – May 2007</strong><br>
-                    Colaiste Dhulaigh<br>
-                    College of further Education<br>
-                    Diploma in Communications and Media studies<br>
+                <div class="item col-10 col-md-6 col-lg-3">
+                    <div class="header-text">
+                        <strong>September 2004 – May 2007</strong><br>
+                        Colaiste Dhulaigh<br>
+                        College of further Education<br>
+                        Diploma in Communications and Media studies<br>
 
-                    Modules Completed:
+                        Modules Completed:
+                    </div>
+                    <ul>
+                        <li>Photography</li>
+                        <li>TV Productions</li>
+                        <li>Sound engineering</li>
+                        <li>Sociology</li>
+                    </ul>
                 </div>
-                <ul>
-                    <li>Photography</li>
-                    <li>TV Productions</li>
-                    <li>Sound engineering</li>
-                    <li>Sociology</li>
-                </ul>
-
             </div>
         </div>
 
         <br>
         <br>
 
-    <!-- Certificates held -->
-        <h2>Certificates</h2>
 
-        <p>
-            <ul>
-                <li>Udemy - One week Python (14.5 hours)</li>
-                <li>Udemy - The Web Developer Bootcamp (64 hours)</li>
-                <li>Udemy - React - The Complete Guide (48.5 hours – 10 hours complete)</li>
-                <li>Udemy - The ultimate MySQL Bootcamp (20.5 hours)</li>
-                <li>Udemy - Python Django – Complete Course(18.5 hours)</li>
-                <li>FreeCodeCamp - Responsive Web Design Certificate</li>
-                <li>FreeCodeCamp - JavaScript Algorithms and Data Structures Certificate</li>
-            </ul>
-        </p>
 
         <!-- Projects built -->
         <h2>Portfolio Projects</h2>
@@ -150,28 +146,46 @@
         </p>
 
         <!-- Work Experience -->
-        <h2>Experience</h2>
+        <h2 class="text-center">Experience</h2>
+
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-12 col-md-10 col-lg-4 text-start">
+                    <strong>2021</strong><br>
+                    In 2021 I was unemployed as I transitioned from a bus driver to a student.
+                </div>
+                <div class="col-12 col-md-10 col-lg-4 text-start mt-3">
+                    <strong>2007 - 2021</strong><br>
+                    In 2019 I was employed with Matthews Coaches who are a privately owned coach company.
+                    This was a highly responsible job. Ensuring the safety of hundreds of people on a day-to-day
+                    basis as well as providing a high level of customer service. This involved cooperating with many
+                    different
+                    departments everyday including maintenance, inspectors, health and safety, clerical, human resources
+                    all
+                    with
+                    the aim of providing a safe and reliable service.
+                </div>
+                <div class="col-12 col-md-10 col-lg-4 text-start mt-3">
+                    <strong>2007 - 2019</strong><br>
+                    In 2007 I joined CIE, My role here was largely similar to the role I held at Matthews Coaches
+                    (see
+                    above), this came the added responsibility of handling cash , issuing fares, and liaising with
+                    inspectors,
+                    managers, maintenance staff etc. all over the country to ensure the smooth operation of a country
+                    wide
+                    service.
+                </div>
+            </div>
+        </div>
 
         <p>
-            <strong>2021</strong><br>
-            In 2021 I was unemployed as I transitioned from a bus driver to a student.
+
             <br>
             <br>
-            <strong>2007 - 2021</strong><br>
-            In 2019 I was employed with Matthews Coaches who are a privately owned coach company.
-            This was a highly responsible job. Ensuring the safety of hundreds of people on a day-to-day
-            basis as well as providing a high level of customer service. This involved cooperating with many different
-            departments everyday including maintenance, inspectors, health and safety, clerical, human resources all
-            with
-            the aim of providing a safe and reliable service.
+
             <br>
             <br>
-            <strong>2007 - 2019</strong><br>
-            In 2007 I joined CIE, My role here was largely similar to the role I held at Matthews Coaches
-            (see
-            above), this came the added responsibility of handling cash , issuing fares, and liaising with inspectors,
-            managers, maintenance staff etc. all over the country to ensure the smooth operation of a country wide
-            service.
+
         </p>
 
         <!-- Skills -->
@@ -224,27 +238,65 @@
             </div>
         </div>
 
-    <!-- My interests and hobbies -->
-        <h2>Interests</h2>
+        <br>
 
-        <p>
-            I am interested in anything media related, I consider myself an amateur photographer and musician.
-            As such I am familiar with Photoshop & Protools
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-8 col-lg-6">
+                    <!-- Certificates held -->
+                    <h2>Certificates</h2>
+                    <p>
+                        <ul>
+                            <li>Udemy - One week Python (14.5 hours)</li>
+                            <li>Udemy - The Web Developer Bootcamp (64 hours)</li>
+                            <li>Udemy - React - The Complete Guide (48.5 hours – 10 hours complete)</li>
+                            <li>Udemy - The ultimate MySQL Bootcamp (20.5 hours)</li>
+                            <li>Udemy - Python Django – Complete Course(18.5 hours)</li>
+                            <li>FreeCodeCamp - Responsive Web Design Certificate</li>
+                            <li>FreeCodeCamp - JavaScript Algorithms and Data Structures Certificate</li>
+                        </ul>
+                    </p>
 
-            I love traveling, reading, cooking, gardening, listening to and playing music. I am quite creative and
-            enjoy
-            trying my hand at new things. Over the last couple of years I have taught myself basic DIY skills and built
-            numerous projects around the house, these include a greenhouse, a deck, a vegetable garden, a kitchen booth,
-            a
-            TV unit and a Bookcase. While challenging I feel that these projects and the problems that arose have hugely
-            helped my problem solving skills.
+                </div>
+                <div class="col-10 col-md-8 col-lg-6">
+                    <!-- My interests and hobbies -->
+                    <h2>Interests</h2>
+                    <p>
+                        I am interested in anything media related, I consider myself an amateur photographer and
+                        musician.
+                        As such I am familiar with Photoshop & Protools
+
+                        I love traveling, reading, cooking, gardening, listening to and playing music. I am quite
+                        creative and
+                        enjoy
+                        trying my hand at new things. Over the last couple of years I have taught myself basic DIY
+                        skills and built
+                        numerous projects around the house, these include a greenhouse, a deck, a vegetable garden, a
+                        kitchen booth,
+                        a
+                        TV unit and a Bookcase. While challenging I feel that these projects and the problems that arose
+                        have hugely
+                        helped my problem solving skills.
 
 
-            Thank you for considering my CV,
-            Ken Sheridan.
-        </p>
+                        Thank you for considering my CV,
+                        Ken Sheridan.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
     </main>
     <a href="#name">Back to top</a>
+    <!-- Bootstrap 5 javaScript plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/7beb4c51dd.js" crossorigin="anonymous" defer></script>
 </body>
 
 </html>
