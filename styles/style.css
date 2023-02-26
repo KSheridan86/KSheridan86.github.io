@@ -24,7 +24,7 @@ ul {
 }
 
 #projects li {
-    list-style-type: square;
+    list-style-type: none;
 }
 
 span {
@@ -97,27 +97,37 @@ td {
 
 
 .skills-box {
-    box-shadow: 2px 2px 5px;
     width: 10rem;
     margin: 1rem;
+}
+
+.shadow-box {
+    box-shadow: 2px 2px 5px;
 }
 
 .skills-box > ul {
     list-style-type: none;
 }
 
-/* media queries */
-/* @media (max-width: 768px) {
-    .container {
-        flex-wrap: wrap;
-    }
-    .container-2 {
-        flex-wrap: wrap;
-    }
-} */
+.project-img {
+    width: auto;
+    height: 10rem;
+}
 
-@media (min-width: 768px) {
-    .disappear {
-        display: none;
+.item {
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 530px) {
+    .project-img {
+        height: 6rem;
+        width: auto;
     }
+}
+
+.back-to-top {
+    color: black;
+    font-size: 2rem;
+    float: right;
+    margin: 2rem;
 }
